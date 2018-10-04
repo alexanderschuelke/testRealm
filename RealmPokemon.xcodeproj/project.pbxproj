@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2D546C5921629E8300A1B9BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C5821629E8300A1B9BE /* AppDelegate.swift */; };
-		2D546C5B21629E8300A1B9BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C5A21629E8300A1B9BE /* ViewController.swift */; };
+		2D546C5B21629E8300A1B9BE /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C5A21629E8300A1B9BE /* ListViewController.swift */; };
 		2D546C5E21629E8300A1B9BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D546C5C21629E8300A1B9BE /* Main.storyboard */; };
 		2D546C6021629E8300A1B9BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D546C5F21629E8300A1B9BE /* Assets.xcassets */; };
 		2D546C6321629E8300A1B9BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D546C6121629E8300A1B9BE /* LaunchScreen.storyboard */; };
 		2D546C6E21629E8300A1B9BE /* RealmPokemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C6D21629E8300A1B9BE /* RealmPokemonTests.swift */; };
 		2D546C7921629E8300A1B9BE /* RealmPokemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C7821629E8300A1B9BE /* RealmPokemonUITests.swift */; };
+		2D546C922162A39500A1B9BE /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C912162A39500A1B9BE /* PokemonCell.swift */; };
+		2D546C942162A59600A1B9BE /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D546C932162A59600A1B9BE /* ListViewModel.swift */; };
+		2D8C01402162ABBD008EB6FF /* MoyaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C013F2162ABBD008EB6FF /* MoyaService.swift */; };
+		2D8C01422162BE31008EB6FF /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C01412162BE31008EB6FF /* Pokemon.swift */; };
+		2DAD24A32162CEC200EF5BDD /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD24A22162CEC200EF5BDD /* PokemonModel.swift */; };
+		2DAD24A52162D04A00EF5BDD /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAD24A42162D04A00EF5BDD /* RealmService.swift */; };
+		6082A46F97B9C9C763709017 /* Pods_RealmPokemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271664D7F8DDD850CC3A5B9 /* Pods_RealmPokemon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		2D546C5521629E8300A1B9BE /* RealmPokemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmPokemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D546C5821629E8300A1B9BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D546C5A21629E8300A1B9BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D546C5A21629E8300A1B9BE /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2D546C5D21629E8300A1B9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D546C5F21629E8300A1B9BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D546C6221629E8300A1B9BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		2D546C7421629E8300A1B9BE /* RealmPokemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealmPokemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D546C7821629E8300A1B9BE /* RealmPokemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmPokemonUITests.swift; sourceTree = "<group>"; };
 		2D546C7A21629E8300A1B9BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D546C912162A39500A1B9BE /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		2D546C932162A59600A1B9BE /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		2D8C013F2162ABBD008EB6FF /* MoyaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaService.swift; sourceTree = "<group>"; };
+		2D8C01412162BE31008EB6FF /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		2DAD24A22162CEC200EF5BDD /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		2DAD24A42162D04A00EF5BDD /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		BEFD5F689E5C47E8E75D783B /* Pods-RealmPokemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmPokemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmPokemon/Pods-RealmPokemon.release.xcconfig"; sourceTree = "<group>"; };
+		C271664D7F8DDD850CC3A5B9 /* Pods_RealmPokemon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmPokemon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F028321217E709F847B4F48B /* Pods-RealmPokemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmPokemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmPokemon/Pods-RealmPokemon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6082A46F97B9C9C763709017 /* Pods_RealmPokemon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4BB4A92163895B00253257 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		2D546C4C21629E8300A1B9BE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				2D546C6C21629E8300A1B9BE /* RealmPokemonTests */,
 				2D546C7721629E8300A1B9BE /* RealmPokemonUITests */,
 				2D546C5621629E8300A1B9BE /* Products */,
+				B045F142EA03A3235BCAFE59 /* Pods */,
+				4A2C9B7C82BAEA1597014F85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +123,11 @@
 		2D546C5721629E8300A1B9BE /* RealmPokemon */ = {
 			isa = PBXGroup;
 			children = (
+				2D546C8C21629F1400A1B9BE /* UI */,
+				2D546C8B21629F0200A1B9BE /* Gears */,
+				2D546C8721629EAB00A1B9BE /* Database */,
+				2D546C8621629E8800A1B9BE /* Network */,
 				2D546C5821629E8300A1B9BE /* AppDelegate.swift */,
-				2D546C5A21629E8300A1B9BE /* ViewController.swift */,
-				2D546C5C21629E8300A1B9BE /* Main.storyboard */,
 				2D546C5F21629E8300A1B9BE /* Assets.xcassets */,
 				2D546C6121629E8300A1B9BE /* LaunchScreen.storyboard */,
 				2D546C6421629E8300A1B9BE /* Info.plist */,
@@ -125,6 +153,100 @@
 			path = RealmPokemonUITests;
 			sourceTree = "<group>";
 		};
+		2D546C8621629E8800A1B9BE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2D546C8A21629EF500A1B9BE /* Model */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2D546C8721629EAB00A1B9BE /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2D546C8921629EE100A1B9BE /* Entity */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		2D546C8821629EB200A1B9BE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C013F2162ABBD008EB6FF /* MoyaService.swift */,
+				2DAD24A42162D04A00EF5BDD /* RealmService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2D546C8921629EE100A1B9BE /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				2D4BB4A92163895B00253257 /* CoreData */,
+				2DAD24A22162CEC200EF5BDD /* PokemonModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		2D546C8A21629EF500A1B9BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D8C01412162BE31008EB6FF /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D546C8B21629F0200A1B9BE /* Gears */ = {
+			isa = PBXGroup;
+			children = (
+				2D546C8821629EB200A1B9BE /* Service */,
+			);
+			path = Gears;
+			sourceTree = "<group>";
+		};
+		2D546C8C21629F1400A1B9BE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2D546C8D21629F2300A1B9BE /* Base */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2D546C8D21629F2300A1B9BE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D546C8E21629F2A00A1B9BE /* Main */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2D546C8E21629F2A00A1B9BE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2D546C5A21629E8300A1B9BE /* ListViewController.swift */,
+				2D546C5C21629E8300A1B9BE /* Main.storyboard */,
+				2D546C912162A39500A1B9BE /* PokemonCell.swift */,
+				2D546C932162A59600A1B9BE /* ListViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4A2C9B7C82BAEA1597014F85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C271664D7F8DDD850CC3A5B9 /* Pods_RealmPokemon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B045F142EA03A3235BCAFE59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F028321217E709F847B4F48B /* Pods-RealmPokemon.debug.xcconfig */,
+				BEFD5F689E5C47E8E75D783B /* Pods-RealmPokemon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +254,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D546C7D21629E8300A1B9BE /* Build configuration list for PBXNativeTarget "RealmPokemon" */;
 			buildPhases = (
+				9C25285B30524CEB45C65F39 /* [CP] Check Pods Manifest.lock */,
 				2D546C5121629E8300A1B9BE /* Sources */,
 				2D546C5221629E8300A1B9BE /* Frameworks */,
 				2D546C5321629E8300A1B9BE /* Resources */,
+				0F43469C2EE01F3D91CD9153 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +375,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F43469C2EE01F3D91CD9153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RealmPokemon/Pods-RealmPokemon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealmPokemon/Pods-RealmPokemon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C25285B30524CEB45C65F39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmPokemon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2D546C5121629E8300A1B9BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D546C5B21629E8300A1B9BE /* ViewController.swift in Sources */,
+				2D8C01402162ABBD008EB6FF /* MoyaService.swift in Sources */,
+				2D546C5B21629E8300A1B9BE /* ListViewController.swift in Sources */,
 				2D546C5921629E8300A1B9BE /* AppDelegate.swift in Sources */,
+				2D546C942162A59600A1B9BE /* ListViewModel.swift in Sources */,
+				2DAD24A32162CEC200EF5BDD /* PokemonModel.swift in Sources */,
+				2D546C922162A39500A1B9BE /* PokemonCell.swift in Sources */,
+				2D8C01422162BE31008EB6FF /* Pokemon.swift in Sources */,
+				2DAD24A52162D04A00EF5BDD /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +615,7 @@
 		};
 		2D546C7E21629E8300A1B9BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F028321217E709F847B4F48B /* Pods-RealmPokemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +634,7 @@
 		};
 		2D546C7F21629E8300A1B9BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFD5F689E5C47E8E75D783B /* Pods-RealmPokemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_RealmPokemon {
+  umbrella header "Pods-RealmPokemon-umbrella.h"
+
+  export *
+  module * { export * }
+}
